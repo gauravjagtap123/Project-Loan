@@ -1,18 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# <center>
-#     <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/FinalModule_Coursera/images/IDSNlogo.png" width="300" alt="cognitiveclass.ai logo"  />
-# </center>
-# 
-# <h1 align="center"><font size="5">Classification with Python</font></h1>
-# 
-
-# In this notebook we try to practice all the classification algorithms that we have learned in this course.
-# 
-# We load a dataset using Pandas library, and apply the following algorithms, and find the best one for this specific dataset by accuracy evaluation methods.
-# 
-# Let's first load required libraries:
 # 
 
 # In[157]:
@@ -661,49 +647,9 @@ df.set_index('Algorithm', inplace = True)
 df
 
 
-# 
-# # Report
-# 
-# You should be able to report the accuracy of the built model using different evaluation metrics:
-# 
-
-# In[ ]:
 
 
 
 
 
-# | Algorithm          | Jaccard | F1-score | LogLoss |
-# | ------------------ | ------- | -------- | ------- |
-# | KNN                | ?       | ?        | NA      |
-# | Decision Tree      | ?       | ?        | NA      |
-# | SVM                | ?       | ?        | NA      |
-# | LogisticRegression | ?       | ?        | ?       |
-# 
 
-# <h2>Want to learn more?</h2>
-# 
-# IBM SPSS Modeler is a comprehensive analytics platform that has many machine learning algorithms. It has been designed to bring predictive intelligence to decisions made by individuals, by groups, by systems – by your enterprise as a whole. A free trial is available through this course, available here: <a href="http://cocl.us/ML0101EN-SPSSModeler?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2021-01-01">SPSS Modeler</a>
-# 
-# Also, you can use Watson Studio to run these notebooks faster with bigger datasets. Watson Studio is IBM's leading cloud solution for data scientists, built by data scientists. With Jupyter notebooks, RStudio, Apache Spark and popular libraries pre-packaged in the cloud, Watson Studio enables data scientists to collaborate on their projects without having to install anything. Join the fast-growing community of Watson Studio users today with a free account at <a href="https://cocl.us/ML0101EN_DSX?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2021-01-01">Watson Studio</a>
-# 
-# <h3>Thanks for completing this lesson!</h3>
-# 
-# <h4>Author:  <a href="https://ca.linkedin.com/in/saeedaghabozorgi?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2021-01-01?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2021-01-01">Saeed Aghabozorgi</a></h4>
-# <p><a href="https://ca.linkedin.com/in/saeedaghabozorgi">Saeed Aghabozorgi</a>, PhD is a Data Scientist in IBM with a track record of developing enterprise level applications that substantially increases clients’ ability to turn data into actionable knowledge. He is a researcher in data mining field and expert in developing advanced analytic methods like machine learning and statistical modelling on large datasets.</p>
-# 
-# <hr>
-# 
-# ## Change Log
-# 
-# | Date (YYYY-MM-DD) | Version | Changed By    | Change Description                                                             |
-# | ----------------- | ------- | ------------- | ------------------------------------------------------------------------------ |
-# | 2020-10-27        | 2.1     | Lakshmi Holla | Made changes in import statement due to updates in version of  sklearn library |
-# | 2020-08-27        | 2.0     | Malika Singla | Added lab to GitLab                                                            |
-# 
-# <hr>
-# 
-# ## <h3 align="center"> © IBM Corporation 2020. All rights reserved. <h3/>
-# 
-# <p>
-# 
